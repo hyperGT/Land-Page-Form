@@ -1,0 +1,14 @@
+@media (max-width: 1120px) {    
+  .center {
+    padding: 0;
+    max-width: 1120px;
+    min-width: 620px;
+  }
+  .box-list {
+    justify-content: center;
+    width: 33%;
+    height: 300px;
+    overflow: auto;
+    margin-bottom: 80px;
+  }  
+}

@@ -1,0 +1,213 @@
+html,
+body {
+  height: 100%;
+}
+
+header {
+  min-width: 1200px;
+  width: 100%;
+  height: 75px;
+  background-color: #212343;
+}
+
+header .logo {
+  /*background-color: #171c3e;*/
+  /*position: fixed;*/
+  width: 180px;
+}
+
+.banner-container {
+  min-width: 1200px;
+  width: 100%;
+  height: 557px;
+  background-image: url("../images/header_bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-container > .center {
+  height: 100%;
+}
+
+.center {
+  padding: 0 2%;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.form {
+  width: 400px;
+  height: calc(100% + 30px);
+  float: right;
+  position: relative;
+  top: -15px;
+  border: 8px solid #ccc;
+  background-color: white;
+  background-clip: padding-box;
+  /*margin-left:10% (no design responsivo)*/
+  padding: 15px;
+}
+
+.form h2 {
+  font-weight: normal;
+  font-size: 19px;
+  text-align: center;
+  color: #9999;
+}
+
+.input-container,
+.Notice {
+  margin-top: 20px;
+}
+
+.input-container span,
+.Notice {
+  display: inline-block;
+  width: 100%;
+  color: #bbb;
+  font-size: 20px;
+}
+
+.Notice {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.input-container input[type="text"] {
+  margin-top: 8px;
+  width: 344px;
+  height: 55px;
+  border: 1px solid #ccc;
+}
+
+.form .input-submit-container {
+  text-align: center;
+}
+
+.form input[type="submit"] {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  display: inline-block;
+  width: 280px;
+  height: 56px;
+  background-color: #322143;
+  border: 0;
+  border-bottom: 5px solid #49345d;
+  cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #4c395d;
+  border: 0;
+}
+
+.box-list {
+  padding: 20px;
+  float: left;
+  width: 619px;
+  height: 270px;
+  background-color: rgba(33, 35, 67, 0.7);
+  margin-top: 40px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.box-list ul {
+  list-style-position: inside;
+}
+
+.box-list ul li,
+span {
+  color: white;
+}
+
+.box-list ul li {
+  margin-top: 33px;
+}
+
+.box-list span {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.box-about-us {
+  min-width: 1200px;
+  padding: 40px 0;
+  color: #7d7b7b;
+  text-align: center;
+  background-color: #ccc;
+}
+
+.box-about-us h2 {
+  font-weight: normal;
+}
+
+.box-about-us p {
+  width: 669px;
+  margin: 15px 0;
+  display: inline-block;
+  text-align: justify;
+}
+
+.arrow {
+  top: 60px;
+  width: 40px;
+  height: 40px;
+  left: 50%;
+  margin-left: -20px;
+  position: relative;
+  background-image: url(../images/arrow.png);
+  background-size: 100% 100%;
+}
+
+.section-3 {
+  padding: 90px 0;
+}
+
+.section-3 h2 {
+  text-align: center;
+  color: #7d7b7b;
+  font-weight: normal;
+}
+
+.container-section p {
+  text-align: justify;
+  padding: 10px 25px;
+  color: #5b5a5a;
+}
+
+.container-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.box-single {
+  float: left;
+  margin-right: -4px;
+  width: 33.333%;
+  padding: 30px;
+}
+
+.box-single:last-child{
+    margin-right: -10px;
+}
+
+.box-single img {
+  width: 55px;
+}
+
+.clear{
+    clear: both;
+}
+
+footer {
+    padding: 20px 0;
+    border-top: 2px solid #888;
+    text-align: center;
+    color: #7d7b7b; 
+}
+
+footer p{
+    margin-top: 10px;
+}
