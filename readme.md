@@ -1,4 +1,4 @@
-# Um formulário sem graça no momento
+# Um formulário simples e sem graça até o momento
 
 ![section-1](./readme-images/image.png)
 
